@@ -1,0 +1,46 @@
+{
+  "id": "rover",
+  "filterCat": "leadership",
+  "catLabel": "Leadership",
+  "cardTitle": "Mars Rover, Kratos",
+  "cardBlurb": "Led 18 person team, 1st place at URC.",
+  "cat": "Leadership: Project Kratos, BITS Goa",
+  "title": "Mars Rover, Kratos",
+  "simple": true,
+  "body": [
+    "In July 2020, I took over as Mechanical Subsystem Lead for Project Kratos, our university Mars rover team at BITS Goa. Over the next two years I led a team of 18 undergraduates through the full arc of building a rover from a blank sheet to a machine that could compete on actual Utah desert terrain, designing the chassis, suspension, and robotic arm, manufacturing every part ourselves, and testing until it actually worked.",
+    {
+      "photo": "CAD RENDER: FULL ROVER CHASSIS AND SUSPENSION"
+    },
+    "We started in SolidWorks, working through the suspension geometry, the arm reach and joint layout, and how the chassis would carry all of it. The chassis itself was a welded box frame, and I ran ANSYS FEA on it early to catch weak points before we ever cut metal, since a cracked frame in the middle of the desert was not something we could fix on site. For the suspension we settled on a double lambda rocker bogie layout, which let all six wheels stay in contact with uneven ground without needing any active suspension components.",
+    {
+      "photo": "CAD DETAIL: ARM ASSEMBLY WITH LABELED JOINTS"
+    },
+    "The arm was five degree of freedom, built to reach into tight spaces and still hold a 7 kg payload without drooping. The end effector used a differential bevel gear setup so two motors could drive both the gripping and wrist rotation, and I built the links out of carbon fiber to keep the whole arm light without giving up stiffness. One gearbox change I am still proud of, we started with a worm gear at one of the joints, and it kept binding and skipping teeth under load, so we swapped it for a spur gear pair and never had the issue again.",
+    {
+      "photo": "WORKSHOP: MACHINED GEARS, WELDED TUBE, WHEEL ITERATIONS"
+    },
+    "None of it existed until we made it. I spent long stretches on the mill, lathe, laser cutter, and 3D printer, machining custom gears, cutting and welding aluminum tube for the suspension arms, and iterating on wheel design more times than I can count. We started with plain wood wheels just to get the rover moving, moved to solid PLA and TPU wheels once we needed better grip and durability, and ended up with a full TPU honeycomb design that flexed enough to absorb rock impacts without deforming permanently.",
+    {
+      "photo": "GRIPPER: TWO DESIGN GENERATIONS SIDE BY SIDE"
+    },
+    "The end effector went through the same cycle. Our first gripper prototype worked but was not precise enough for the dexterity tasks, operating a joystick and tightening a screw, so we redesigned the jaw mechanism and mounting bracket, tested it, and redesigned it again.",
+    {
+      "photo": "LIFE DETECTION SYSTEM: SOIL AND ROCK ANALYSIS MODULE"
+    },
+    "Alongside the mobility and arm systems, I also worked on the rover life detection payload, which was really three smaller systems working together. A soil collection mechanism drilled and pulled samples from up to 7 cm below the surface, a mixing stage combined that soil with water using peristaltic pumps and ran it through a photospectrometer to check for biosignatures, and a separate rock analysis station used a Pi camera to visually inspect surface rock samples. Fitting all three into the limited space and power budget we had on the rover deck was its own design puzzle.",
+    {
+      "photo": "WORKSHOP: LIVE ASSEMBLY AND TROUBLESHOOTING"
+    },
+    "Putting it together was its own challenge. We would hit a wiring issue late at night, or find a bracket that needed reworking mid build. Most of what happened here was on a concrete workshop floor with a laptop balanced somewhere nearby.",
+    {
+      "photo": "FIELD TEST: ROVER ON ROCKY TERRAIN NEAR CAMPUS"
+    },
+    "Before we ever got to competition, we tested the rover on actual rocky, uneven ground near campus, not a lab bench, to make sure the suspension and wheels behaved the way we designed them to.",
+    {
+      "photo": "COMPETITION: ROVER ON URC DESERT COURSE"
+    },
+    "In June 2022, we took the rover to the University Rover Challenge in Utah, competing against teams from around the world on a real Mars analog course of sand, uneven terrain, and marked task stations. Our team placed 1st among Indian teams. A month later we competed again at the Anatolian Rover Challenge in Turkey, finishing runner up.",
+    "Two years, a lot of failed prototypes, and one well traveled rover later, Kratos is still the project that taught me the most about turning a CAD model into something that survives contact with reality."
+  ]
+}
