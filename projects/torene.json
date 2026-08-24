@@ -1,0 +1,15 @@
+{
+  "id": "torene",
+  "filterCat": "research",
+  "catLabel": "Research",
+  "cardTitle": "Torene Metamaterials",
+  "cardBlurb": "Parametric CAD and FEA for biomedical implants.",
+  "cat": "Research: Texas A&M University",
+  "title": "Torene Based Metamaterials",
+  "simple": true,
+  "body": [
+    "Working with the Life at the Interface Group at Texas A&M, I develop parametric CAD models of torene geometries and run finite element simulations to study how the topology controls stiffness, deformation, and stress distribution under load.",
+    "Part of the work applies these torene based architectures to spinal cage implants, adjusting geometry to reduce stress shielding and improve compatibility with surrounding bone. I set up structured documentation practices to track and compare design iterations, which supports focused design reviews against load bearing and compliance requirements.",
+    "This is an ongoing project, with design iterations continuing to be refined based on simulation results and review feedback."
+  ]
+}
